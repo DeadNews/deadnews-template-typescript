@@ -1,0 +1,16 @@
+{
+  "name": "deadnews-template-typescript",
+  "publisher": "DeadNews <aurczpbgr@mozmail.com>",
+  "license": "MIT",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
