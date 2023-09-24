@@ -1,6 +1,8 @@
 {
   "name": "deadnews-template-typescript",
+  "description": "TypeScript Project Template",
   "publisher": "DeadNews <aurczpbgr@mozmail.com>",
+  "homepage": "https://github.com/DeadNews/deadnews-template-typescript",
   "license": "MIT",
   "module": "src/index.ts",
   "type": "module",
