@@ -1,6 +1,6 @@
 // Workspace settings override user settings.
 {
-  "[typescript]": {
+  "[typescript][javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
