@@ -4,11 +4,12 @@
 // If the request path is "/health", it responds with "OK".
 // For any other request path, it responds with "404!".
 export function start() {
-  let port = process.env.PORT || 1271;
-  console.log(`Starting HTTP server at http://127.0.0.1:${port}.`);
+  console.log(
+    `Starting HTTP server at`,
+    `http://${Bun.env.NODE_HOSTNAME}:${Bun.env.NODE_PORT}.`,
+  );
 
   Bun.serve({
-    port: port,
     fetch(req) {
       const url = new URL(req.url);
       if (url.pathname === "/") return new Response("Hello, World!");
