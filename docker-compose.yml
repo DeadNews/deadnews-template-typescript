@@ -6,4 +6,3 @@ services:
       - 3000:3000
     environment:
       NODE_PORT: "3000"
-
