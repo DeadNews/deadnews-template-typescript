@@ -1,4 +1,4 @@
-.PHONY: test
+.PHONY: all clean test checks docker
 
 checks: pc-run
 
