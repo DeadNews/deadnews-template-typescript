@@ -3,6 +3,6 @@ services:
   web:
     build: .
     ports:
-      - 3000:3000
+      - 127.0.0.1:${NODE_PORT:-3000}:${NODE_PORT:-3000}
     environment:
-      NODE_PORT: "3000"
+      UVICORN_PORT: ${NODE_PORT:-3000}

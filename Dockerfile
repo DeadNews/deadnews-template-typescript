@@ -16,6 +16,6 @@ RUN bun install --production --frozen-lockfile
 USER bun:bun
 EXPOSE ${NODE_PORT}
 HEALTHCHECK --interval=60s --timeout=3s \
-     CMD wget --no-verbose --tries=1 --spider http://127.0.0.1:${NODE_PORT}/health || exit 1
+    CMD wget --no-verbose --tries=1 --spider http://127.0.0.1:${NODE_PORT}/health || exit 1
 
 CMD ["bun", "start"]
