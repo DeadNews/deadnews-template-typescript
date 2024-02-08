@@ -5,4 +5,4 @@ services:
     ports:
       - 127.0.0.1:${NODE_PORT:-3000}:${NODE_PORT:-3000}
     environment:
-      UVICORN_PORT: ${NODE_PORT:-3000}
+      NODE_PORT: ${NODE_PORT:-3000}
