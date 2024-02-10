@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Setup Bun
-        uses: oven-sh/setup-bun@a1800f471a0bc25cddac36bb13e6f436ddf341d7 # v1
+        uses: oven-sh/setup-bun@9b21598af8d4dfc302e5a30250007de0fda92acc # v1
         with:
           bun-version: latest
 
@@ -40,7 +40,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Bun
-        uses: oven-sh/setup-bun@a1800f471a0bc25cddac36bb13e6f436ddf341d7 # v1
+        uses: oven-sh/setup-bun@9b21598af8d4dfc302e5a30250007de0fda92acc # v1
         with:
           bun-version: latest
 
