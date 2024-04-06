@@ -1,4 +1,4 @@
-FROM oven/bun:1.0.30-alpine@sha256:d580f13e78400294deaf80fb3fcbf44f4c71430e6df7ab127e026c2ae6690b39 as base
+FROM oven/bun:1.1.2-alpine@sha256:e9f01a4ed78e4d829a06c7f490a6696bfa5f252fcde2d7cb9c4e6b9be721b91a as base
 LABEL maintainer "DeadNews <aurczpbgr@mozmail.com>"
 
 WORKDIR /app
