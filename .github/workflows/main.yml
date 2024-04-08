@@ -28,7 +28,7 @@ jobs:
 
   publish:
     name: Publish Package to npmjs
-    if: startsWith(github.ref, 'refs/tags/')
+    if: github.ref_type == 'tag'
     needs: [tests]
     permissions:
       contents: write
