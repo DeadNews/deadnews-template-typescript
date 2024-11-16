@@ -1,4 +1,4 @@
-FROM oven/bun:1.1.31-alpine@sha256:d460ce709afd575c4920074c3b3bd55787833fdf787984362c846fccbc1b5243 AS base
+FROM oven/bun:1.1.34-alpine@sha256:490d28250f51bf30fd88c3277f43c2c2bd721599d9ae373458c487d27bcb10f3 AS base
 LABEL maintainer="DeadNews <deadnewsgit@gmail.com>"
 
 WORKDIR /app
